@@ -1,0 +1,179 @@
+@import 'KiibleColors.scss';
+@import 'KiibleDim.scss';
+
+/* Main div containing everything */
+.UpdateglobalFrame {
+  /* background-color:#ecedef; */
+  background-color: transparent;
+
+  font-size: 14px;
+  font-family: $defaultFont;
+}
+
+/* Main div containing input fields */
+.UpdateInputForm{
+	background-color: #f6f6f7;
+
+
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 1px;
+  
+  padding-top:2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+
+  border-radius: $smallCornerRadius;
+  -ms-border-radius: $smallCornerRadius;
+  -moz-border-radius: $smallCornerRadius;
+  -webkit-border-radius: $smallCornerRadius;
+  -khtml-border-radius: $smallCornerRadius;
+}
+
+.UpdateInputFormRow{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.UpdateecpUserID{
+  display: inline-block;
+
+	border: none;
+	background: none;
+  font-size:x-small;
+  text-align: right;
+  color: $debugColor01;
+}
+
+.UpdateEmailListOK {
+  background:white;
+  border-color: rgb(123, 123, 123);
+  color:#727070;
+
+  float: left;
+  border:none;
+}
+.UpdateEmailListKO {
+  background:white;
+  border-color: red;
+  color:#727070;
+
+  float: left;
+  border:none;
+}
+
+.UpdateMoreEmail {
+  height:20px;
+  float: left;
+  border:none;
+  color: #727070;
+  background-color: transparent;
+}
+
+
+.UpdateComment{
+  background:white;
+  border-color: rgb(123, 123, 123);
+  color: #727070;
+  float: left;
+  resize:none;
+}
+
+.UpdateSelectFormRow{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.UpdateSelectFormLabel{
+  background-color: transparent;
+  color: #727070;
+  font: bold;
+}
+
+input[type="radio"] {
+  /* display:none; */
+}
+
+.UpdateSelectorSelected{
+  color: red;
+  background-color: transparent;
+  font: bolder;
+}
+.UpdateSelectorNotSelected{
+  color: #727070;
+  background-color: transparent;
+  font: bold;
+}
+
+.UpdateTermsAndCond{
+  float: left;
+  color: #727070;
+}
+
+.UpdateConditionsLink{
+  background-color: transparent;
+  border: 0px;
+}
+
+.UpdateTerms{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  padding: 0px;
+}
+
+.formValidationRow{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.UpdatesendValidate{
+  background-color: green;
+  width:65px;
+  height:20px;
+  padding:2px;
+
+  float: none;
+
+  border-radius: $smallCornerRadius;
+  -ms-border-radius: $smallCornerRadius;
+  -moz-border-radius: $smallCornerRadius;
+  -webkit-border-radius: $smallCornerRadius;
+  -khtml-border-radius: $smallCornerRadius;
+
+  border:none;
+  color:white;
+  font-size:x-small;
+}
+
+.UpdatesendValidateInactive{
+  /* background-color:#ffffff; */
+  background-color:green;
+  opacity: .5;
+  width:65px;
+  height:20px;
+  padding:2px;
+
+  float: none;
+
+  border-radius: $smallCornerRadius;
+  -ms-border-radius: $smallCornerRadius;
+  -moz-border-radius: $smallCornerRadius;
+  -webkit-border-radius: $smallCornerRadius;
+  -khtml-border-radius: $smallCornerRadius;
+
+  border:none;
+  color:white;
+  font-size:x-small;
+}
+
+
+/* END */
+
+
+
+
+
+
+

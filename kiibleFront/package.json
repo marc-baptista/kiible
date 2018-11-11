@@ -1,0 +1,47 @@
+{
+  "name": "kiiblefront",
+  "version": "0.1.0",
+  "private": true,
+  "config": {
+    "indexName": "kiible",
+    "port": "8182"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.5.3",
+    "google-libphonenumber": "^3.0.12",
+    "node-sass-chokidar": "^1.2.2",
+    "npm-run-all": "^4.1.2",
+    "promise": "^8.0.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.1.1",
+    "url-search-params": "^0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc-baptista/kiibleFront.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.6.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "lint": "^1.1.2",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

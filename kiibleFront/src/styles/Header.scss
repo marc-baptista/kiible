@@ -1,0 +1,25 @@
+@import 'KiibleColors.scss';
+@import 'KiibleDim.scss';
+
+.App {
+  text-align: center;
+}
+
+.App-full-logo {
+float: left;
+  height: 30px;
+}
+
+.App-header {
+  /* background-color: #222; */
+  height: 30px;
+  padding: 8px;
+  color: white;
+}
+
+.App-Header-title {
+	height: 30px;
+	float: left;
+	padding: 5px;
+  font-size: large;
+}

@@ -1,0 +1,49 @@
+/* Menubar.css */
+@import 'KiibleColors.scss';
+@import 'KiibleDim.scss';
+
+.MenuBar {
+  float: right;
+  text-align: right;
+  height: 30px;
+}
+
+.MenuItem {
+  text-align: center;
+}
+
+ul{
+    list-style:none;
+    display: inline-block;
+    text-decoration:none;
+    padding: 0px 0px;
+    height: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+li{
+    display: inline-block;
+    padding: 5px 10px;
+    cursor:pointer;
+    margin: 10px 0 0 15px;
+    font-family: $defaultFont;
+    font-size:x-small;
+    color: #68686d;
+    transition:0.3s;
+}
+
+ul li:hover{
+    background-color:#beecea;
+}
+
+ul li.focused{
+    color:#fff;
+    background-color:#dddddd;
+}
+
+.App-intro {
+  font-size: large;
+}

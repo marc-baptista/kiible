@@ -1,0 +1,10 @@
+{
+    "port": "3000",
+    "tempDirectory": "/temp",
+    "appLogoFileName": "kiible.png",
+    "appLogoFile": "img-logo_100x50.png",
+    "webSite": "www.kiible.com",
+    "wsServerBase": "http://localhost:8182",
+    "wsServerBasePivate": "http://localhost:8182",
+    "wsServerBasePublic": "http://88.174.61.32:81"
+}

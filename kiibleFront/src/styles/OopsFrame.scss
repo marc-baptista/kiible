@@ -1,0 +1,65 @@
+@import 'KiibleColors.scss';
+@import 'KiibleDim.scss';
+
+.OopsFrame {
+    float: left;
+    position: fixed;
+    /* top: 0; */
+    top: 100px;
+    left: 350px;
+    width: 200px;
+    height: 100px;
+    z-index: 10000;
+    padding: 2px;
+}
+.OopsTriangle {
+    float: left;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid #f6f6f7;
+}
+.OopsBody {
+float:left;
+
+width: 150px;
+height: 100px;
+
+font-size: 14px;
+    font-family: $defaultFont;
+
+
+    /* background-color: rgba(255, 255, 255, 0.85); */
+    background-color: #f6f6f7;
+
+    border-radius: 1px 10px 1px 10px;
+    -ms-border-radius: 1px 10px 1px 10px;
+    -moz-border-radius: 1px 10px 1px 10px;
+    -webkit-border-radius: 1px 10px 1px 10px;
+    -khtml-border-radius: 1px 10px 1px 10px;
+}
+.OopsFrameTitle {
+    height: 25px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: $defaultFont;
+}
+.OopsIcone {
+    float: left;
+    clear:left;
+  
+    width:25px;
+    height:25px;
+    border:0px;
+}
+
+
+
+.OopsFrameMessage {
+    font-size: 12px;
+    font-style: italic;
+    text-align: left;
+    font-family: $defaultFont;
+}

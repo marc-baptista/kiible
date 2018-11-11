@@ -1,0 +1,115 @@
+@import 'KiibleColors.scss';
+@import 'KiibleDim.scss';
+
+.ecpContactNumber{
+  float: left;
+display: inline-block;
+
+	background: none;
+  font-size:x-small;
+
+  text-align: right;
+  height:20px;
+
+  color: red;
+}
+
+.helpButton{
+	width:20px;
+	height:20px;
+	border:0;
+  /* display: none; */
+}
+
+/* Main div containing options selectors CLOSED*/
+.UpdateOptionsFrameClosed{
+  border-radius: $smallCornerRadius;
+  -ms-border-radius: $smallCornerRadius;
+  -moz-border-radius: $smallCornerRadius;
+  -webkit-border-radius: $smallCornerRadius;
+  -khtml-border-radius: $smallCornerRadius;
+
+  background: $optionBackgroundColor;
+
+  /* width:32px; 
+  height:202px;*/
+
+  float: left;
+}
+
+/* Main div containing options selectors */
+.UpdateOptionsFrame{
+  border-radius: $smallCornerRadius;
+  -ms-border-radius: $smallCornerRadius;
+  -moz-border-radius: $smallCornerRadius;
+  -webkit-border-radius: $smallCornerRadius;
+  -khtml-border-radius: $smallCornerRadius;
+
+  background: $optionBackgroundColor;
+
+	/* width:132px; */
+	 /* height:202px; */
+
+	float: left;
+}
+.UpdateOptionsFrameRow0{
+
+}
+.optionsButton {
+	background-size: 100%;
+  background-repeat: no-repeat;
+
+  width: 30px;
+  height: 30px;
+  border: 0;
+  float: left;
+
+  margin-left: 15px;
+}
+.optionsCloseButton {
+	background-size: 100%;
+  background-repeat: no-repeat;
+
+  width: 30px;
+  height: 30px;
+  border: 0;
+  float: left;
+
+  margin-left: 0px;
+}
+.UpdateOptionsFrameRow1 {
+    font-size: x-small;
+    font-weight: bold;
+    color: #b4b7bd;
+}
+.optionsOl{
+    list-style-type: decimal;
+}
+.optionsLi {
+    display: list-item;
+    text-align: left;
+    padding: 1px 2px;
+    cursor: pointer;
+    margin: 0px 0px 0px 1px;
+}
+.UpdateOptionsFrameRow1 {
+	border: none;
+    background-color: transparent;
+    font-size: x-small;
+    color: #9ca0a7;
+}
+.languageSelector{
+  border:none;
+  background-color:transparent;
+  margin-inline-start:middle;
+  font-size:x-small;
+  color:#9ca0a7;
+}
+
+/* END */
+
+
+
+
+
+

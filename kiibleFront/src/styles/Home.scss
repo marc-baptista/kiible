@@ -1,0 +1,99 @@
+@import 'KiibleColors.scss';
+@import 'KiibleDim.scss';
+
+.App {
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Home {
+  position: relative;
+}
+
+.mainBackground {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+      z-index:-10;
+      width: 100%;
+      height: 500px;
+  }
+  
+.Homeform {
+  /* background-color:#ecedef; */
+  /* background-color:green; */
+
+  width:460px; 
+  height:250px; 
+  padding:3px;
+  margin: 3px;
+
+ 
+  overflow: hidden;
+  position: absolute;
+  top: 15%;
+  zoom: 1;
+
+  font-size: 12px;
+  font-family: $defaultFont;
+
+  float: left;
+}
+
+.HomeSelector {
+  float: left;
+  margin-left: 20px;
+
+}
+
+.ItemBlock1 {
+  /* background-color: blue; */
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+.ItemBlock2 {
+  /* background-color: blueviolet;*/
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+
+.SelectorItem {
+  display: block;
+}
+.SelectedUnderline {
+  /* float:left; */
+
+  width: 113px;
+  height: 4px;
+
+  /* background-color: #f6f6f7; */
+  background-color: transparent;
+
+  border-radius: $underlineCornerRadius;
+  -ms-border-radius: $underlineCornerRadius;
+  -moz-border-radius: $underlineCornerRadius;
+  -webkit-border-radius: $underlineCornerRadius;
+  -khtml-border-radius: $underlineCornerRadius;
+  display: inline-block;
+}
+.SelectedUnderlineSelected {
+  /* float:left; */
+
+  width: 113px;
+  height: 4px;
+
+  /* background-color: #f6f6f7; */
+  background-color: white;
+
+  border-radius: $underlineCornerRadius;
+  -ms-border-radius: $underlineCornerRadius;
+  -moz-border-radius: $underlineCornerRadius;
+  -webkit-border-radius: $underlineCornerRadius;
+  -khtml-border-radius: $underlineCornerRadius;
+  display: inline-block;
+}

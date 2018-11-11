@@ -1,0 +1,14 @@
+{
+    "port": "8182",
+    "defaultBccDest": "mbaptist@free.fr,kiible@free.fr",
+    "defaultMailSender": "kiible@free.fr",
+    "smtpHost": "smtp.free.fr",
+    "smtpPort": "465",
+    "smtpUser": "kiible",
+    "smtpPassword": "knobz$r2",
+    "tempDirectory": "/temp",
+    "workSheetName": "kiible Contacts",
+    "appLogoFileName": "kiible.png",
+    "appLogoFile": "img-logo_100x50.png",
+    "webSite": "www.kiible.com"
+}

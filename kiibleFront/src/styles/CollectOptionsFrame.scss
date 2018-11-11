@@ -1,0 +1,152 @@
+@import 'KiibleColors.scss';
+@import 'KiibleDim.scss';
+
+.ecpContactNumber{
+  float: left;
+  display: inline-block;
+
+	background: none;
+  font-size:x-small;
+
+  text-align: right;
+  height:20px;
+
+  color: $debugColor01;
+}
+
+/* Main div containing options selectors CLOSED*/
+.CollectOptionsFrameClosed{
+  border-radius: $smallCornerRadius;
+  -ms-border-radius: $smallCornerRadius;
+  -moz-border-radius: $smallCornerRadius;
+  -webkit-border-radius: $smallCornerRadius;
+  -khtml-border-radius: $smallCornerRadius;
+
+  background: $optionBackgroundColor;
+
+  /* width:32px; 
+  height:202px;*/
+
+  float: left;
+}
+/* Main div containing options selectors */
+.CollectOptionsFrame{
+  border-radius: $smallCornerRadius;
+  -ms-border-radius: $smallCornerRadius;
+  -moz-border-radius: $smallCornerRadius;
+  -webkit-border-radius: $smallCornerRadius;
+  -khtml-border-radius: $smallCornerRadius;
+
+  background: $optionBackgroundColor;
+
+	/* width:132px; */
+ /* height:202px; */
+
+	float: left;
+}
+.CollectOptionsFrameRow0{
+
+}
+.optionsButtonOpen {
+	background-size: 100%;
+  background-repeat: no-repeat;
+
+  width: 30px;
+  height: 30px;
+  border: 0;
+  float: left;
+
+  margin-left: 15px;
+}
+.optionsButtonClose {
+	background-size: 100%;
+  background-repeat: no-repeat;
+
+  width: 30px;
+  height: 30px;
+  border: 0;
+  float: left;
+
+  margin-left: 0px;
+}
+
+.optionsClose{
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  width: 15px;
+  height: 15px;
+  border: 0;
+  float: right;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+.formSelector{
+  border:none;
+  background-color:transparent;
+  text-align:left;
+  font-size:x-small;
+  font-weight: bold;
+  color:#575757;
+}
+
+.selectorSelected{
+  display: list-item;
+  text-align: left;
+  font-size:x-small;
+  font-weight: bold;
+  padding: 1px 2px;
+  cursor: pointer;
+  margin: 0px 0px 0px 1px;
+  color: red;
+  list-style: none;
+}
+.selectorNotSelected{
+  display: list-item;
+  text-align: left;
+  font-size:x-small;
+  padding: 1px 2px;
+  cursor: pointer;
+  margin: 0px 0px 0px 1px;
+  color: #575757;
+  list-style: none;
+}
+.CollectOptionsFrameRow1 {
+	border: none;
+    background-color: transparent;
+    font-size: x-small;
+    color: #9ca0a7;
+}
+.languageSelector{
+  border:none;
+  background-color:transparent;
+  alignment-adjust:middle;
+  font-size:x-small;
+  color:#575757;
+}
+
+.sendOrDelete{
+  padding: 15px;
+
+}
+.sendContacts {
+
+  padding:2px;
+  margin-top:2px;
+  margin-bottom:8px;
+}
+
+.deleteContacts {
+
+  padding:2px;
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+/* END */
+
+
+
+
+
+

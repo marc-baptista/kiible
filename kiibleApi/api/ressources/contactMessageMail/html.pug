@@ -1,0 +1,24 @@
+doctype html
+html(lang='fr')
+    head
+        meta(http-equiv='content-type' content='text/html; charset=UTF-8')
+        title('kiible: Merci de votre demande de contact')
+        link(rel='stylesheet', href='/css/kiible.css', data-inline)
+    body
+        img(src='cid:' + logoCDI , alt="kiible logo")
+        p
+            |Nous avons bien reçu le message suivant de votre part:
+        br
+        p
+            h2 #{contactMessage}
+        br
+        p
+            |Nous vous apporterons une réponse dans les délais les plus brefs.
+        br
+        p
+            |Cordailement,
+            |L'équipe Kiible.
+        br
+        p
+            a(href='' + webSite) Site web kiible
+

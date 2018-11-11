@@ -1,0 +1,23 @@
+doctype html
+html(lang='fr')
+    head
+        meta(http-equiv='content-type' content='text/html; charset=UTF-8')
+        title('kiible: votre liste de contacts en pièce jointe')
+        link(rel='stylesheet', href='/css/kiible.css', data-inline)
+    body
+        img(src='cid:' + logoCDI , alt="kiible logo")
+        p
+            |Merci d'avoir utilisé l'application Kiible.
+        br
+        p
+            |Veuillez trouver en pièce jointe le fichier contenant chacune des coordonnées de contact que vous avez collecté avec l'application kiible.
+        br
+        case withComment
+            when true
+                h2 Notes personnelles:
+                div #{notes}
+            default
+                h2 'No comment'
+        p
+            a(href='' + webSite) Site web kiible
+

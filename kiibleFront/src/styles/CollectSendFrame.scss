@@ -1,0 +1,170 @@
+@import 'KiibleColors.scss';
+@import 'KiibleDim.scss';
+
+.CollectSendFrame {
+  font-size: 14px;
+  font-family: $defaultFont;
+
+  /* float: left; */
+
+  position: fixed;
+  /* top: 0; */
+  top: 10%;
+  left: 50px;
+/*   width: 250px;*/
+  /* height: 270px; */
+
+  z-index: 10000;
+  padding: 2px;
+  /* background-color: rgba(255, 255, 255, 0.85); */
+  background-color: #f6f6f7;
+  /* background-color: green; */
+  box-shadow: 0 0 30px rgba(0,0,0,0.75);
+
+  border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -khtml-border-radius: 10px 10px 10px 10px;
+}
+
+.sendForm{
+  margin-left: 15px;
+}
+
+.headRow {
+  width: 100%;
+  float: left;
+  background-color: lightblue;
+
+}
+
+.kiiblePersona{
+  width:20px;
+  height:20px;
+  border:0;
+}
+.headerTitle{
+  border:none;
+  background-color:transparent;
+  text-align:left;
+  font-size:x-small;
+  font-weight: bold;
+  color:#575757;
+}
+.ecp_userID {
+/*  display: none;*/
+  color: red;
+}
+.sendHelpPopupDiv {
+}
+.socnet_grey {
+  width:20px;
+  height:20px;
+  border:0;
+}
+.sendHelpPopupText {
+}
+.sendSetEmailRow {
+  width: 100%;
+  float: left;
+  background-color: yellow;
+}
+.sendEmail {
+  float: left;
+
+}
+
+.ec_sendComment {
+  float: left;
+}
+.sendFormatSet {
+  /* float: left;*/
+  background-color: yellow;
+}
+input[type="radio"] {
+  display: block;
+}
+.selectedItem{
+  color: blue;
+  font: bold;
+}
+.selectableItem{
+  color: green;
+}
+.disabledItem{
+  color: grey;
+}
+.sendTermsAndCond{
+  float: left;
+  background-color: red;
+}
+.ec_sendConditions{
+
+}
+.ec_sendConditionsLink {
+}
+.ec_sendTerms {
+  background-image: url(/images/acrobat.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+
+}
+
+.sendCancel {
+  /*float: left; */
+  width:65px;
+  height:20px;
+  padding:2px;
+
+  border-radius: $smallCornerRadius;
+  -ms-border-radius: $smallCornerRadius;
+  -moz-border-radius: $smallCornerRadius;
+  -webkit-border-radius: $smallCornerRadius;
+  -khtml-border-radius: $smallCornerRadius;
+
+  border:none;
+  color:white;
+  font-size:x-small;
+}
+
+.sendValidate {
+  width:65px;
+  height:20px;
+  padding:2px;
+
+/*  float: right; */
+
+  border-radius: $smallCornerRadius;
+  -ms-border-radius: $smallCornerRadius;
+  -moz-border-radius: $smallCornerRadius;
+  -webkit-border-radius: $smallCornerRadius;
+  -khtml-border-radius: $smallCornerRadius;
+
+  border:none;
+  color:white;
+  font-size:x-small;
+}
+.sendValidateInactive {
+  opacity: .5;
+  width:65px;
+  height:20px;
+  padding:2px;
+
+/*  float: right; */
+
+  border-radius: $smallCornerRadius;
+  -ms-border-radius: $smallCornerRadius;
+  -moz-border-radius: $smallCornerRadius;
+  -webkit-border-radius: $smallCornerRadius;
+  -khtml-border-radius: $smallCornerRadius;
+
+  border:none;
+  color:white;
+  font-size:x-small;
+}
+
+.CollectSendFrameClosed {
+}

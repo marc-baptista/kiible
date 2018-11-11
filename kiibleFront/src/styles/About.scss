@@ -1,0 +1,22 @@
+@import 'KiibleColors.scss';
+@import 'KiibleDim.scss';
+
+.headTitleBar{
+    font-size: 12px;
+    font-family: $defaultFont;
+    color: white;
+    background: $defaultBackgroundColor; 
+}
+.middleLogoBar{
+    background-repeat: repeat-x;
+    background-size: 10px 60px;
+    height: 60px;
+}
+.dotLogo{
+    height: 60px;
+}
+.Alfbar{
+    background-repeat: repeat-x;
+    background-size: 10px 60px;
+    height: 60px;
+}

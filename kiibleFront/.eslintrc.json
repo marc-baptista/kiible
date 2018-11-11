@@ -1,0 +1,49 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "airbnb-base"
+    ],
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "globals": {
+        "exampleGlobalVariable": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "no-console": 0,
+        "no-alert": 0,
+        "no-tabs": 0,
+        "indent": ["error", "tab"],
+        "linebreak-style": ["error", "unix"],
+        "max-len": ["error", 200],
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "class-methods-use-this": [2, {
+            "exceptMethods": [
+              "render",
+              "getInitialState",
+              "getDefaultProps",
+              "getChildContext",
+              "componentWillMount",
+              "componentDidMount",
+              "componentWillReceiveProps",
+              "shouldComponentUpdate",
+              "componentWillUpdate",
+              "componentDidUpdate",
+              "componentWillUnmount"
+            ]
+          }]
+    },
+    "plugins": [
+        "react"
+    ]
+}
